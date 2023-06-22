@@ -1,0 +1,27 @@
+:root {
+    --main: #082032;
+    --background: #2C394B;
+    --primary: #FF4C29;
+    --secondary: #334756;
+}
+
+.background {
+    background-color: var(--background);
+    min-height: 100%;
+}
+
+.header {
+    background-color: var(--main)
+}
+
+.btn {
+    background-color: var(--primary);
+    padding: 0.25rem;
+    border-radius: 2px;
+    border: 2px black;
+    width: 13rem
+}
+
+.btn:active {
+    background-color: rgba(255, 76, 41, 0.8);
+}
